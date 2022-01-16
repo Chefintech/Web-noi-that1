@@ -1,0 +1,124 @@
+/* GLOBAL */
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear {
+    clear: both;
+}
+/* hEADER */
+/* img{
+    width: 250px;
+} */
+.header img{
+    width:250px
+}
+.header ul{
+    list-style: none;
+    background-color: black;
+    padding: 15px 0;
+    margin: 5px 0 10px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.header li{
+    display: inline;
+    margin: 0 10px;
+}
+/* carousel */
+.carousel{
+    background-image: url("../img/image/slider_1.jpg"); 
+    height: 550px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+/* INtro */
+.intro__text{
+    font-size: 20px;
+    margin: 25px 0 40px;
+}
+.intro__text span{
+    color: red;
+    font-weight: bold;
+}
+/* .intro__left{
+    float:left;
+    width: 50%
+}
+.intro_right{
+    float: left;
+    width: 50%;
+} */
+.intro__left,.intro__right{
+    float:left;
+    width: 50%;
+}
+.intro__smallItem{
+    float: left;
+    width: 50%;
+}
+.intro__item{
+    padding: 0 12px 25px;
+}
+.intro__item img{
+    width: 100%;
+    display: block;
+}
+
+
+/* product */
+.products{
+    margin-bottom: 70px;
+}
+.products h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.products__item{
+    float:left;
+    width: 25%;
+    padding: 0 10px;
+    
+}
+.products__item img{
+    width: 100%;
+}
+.products__item h3{
+    font-size: 25px;
+}
+.products__item p{
+    font-size: 17px;
+}
+.products__item button{
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+/* banner */
+.banner{
+    background-image: url("/img/image/nature.jpg");
+    height: 400px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.banner__circle{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(130, 40, 39, 0.8);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    
+    /* opacity: 0.8; */
+}
